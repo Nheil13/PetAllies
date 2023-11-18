@@ -4,6 +4,8 @@ $server="localhost";
 $username="root";
 $password="";
 $database = "register_from_android";
+
+// Create connection
 $conn = new mysqli($server, $username, $password, $database);
 
 // Check connection
